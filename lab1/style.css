@@ -1,0 +1,106 @@
+header, nav, footer
+{
+display: block;
+width: 1378px;
+height: 400px;
+background-color: #453ab2;
+}
+header{
+position:relative;
+}
+body {
+color: #ffffff;
+background-color:#000000;
+margin: 0px;
+text-align: center; 
+} 
+main {
+display: block;
+width: 1378px;
+height: auto;
+background-color: #453ab2;
+overflow:hidden; 
+}
+#col-left {
+background-color:#006acc;
+width: 450px;
+height: 600px;
+float: left;
+}
+#col-center {
+background-color:#453ab2;
+width: 928px;
+height: auto;
+} 
+footer{
+clear: both;
+}
+#container {
+position: relative;
+margin: auto;
+width: 1078px;
+height: auto;
+overflow: hidden;
+border: 1px solid #ffffff;
+} 
+#logo {
+position: absolute;
+top:10px; 
+left:10px;
+width: 200px;
+height: 40px;
+border: 2px dotted #731980;
+}
+#logo img {
+max-height:80px;
+} 
+
+.tg{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg th{
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg .tg-iin{
+    background-color:#7e7e7e;
+    color:#000000;
+    text-align:left;
+    vertical-align:top;
+}
+.tg .tg-info{
+    background-color:#7e7e7e;
+    color:#000000;
+    text-align:left;
+    vertical-align:middle;
+}
+.tg tbody tr:nth-child(even){
+    background-color:#ffffff;
+    color:#000000;
+    text-align:left;
+    vertical-align:middle;
+}
+.tg tbody tr:nth-child(odd){
+    background-color:#d1d1d1;
+    color:#000000;
+    text-align:left;
+    vertical-align:middle;
+}
