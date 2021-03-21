@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav class=" .navbar-fixed-top">
+        <a class="left carousel-control" href="#carouselID" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" ariahidden="true"></span>
+            <span class="sr-only">Poprzedni</span>
+        </a>
+        <a href="#main-page" role="button">
+            <span class="sr-only">Sekcja</span>
+        </a>
+        <a class="right carousel-control" href="#carouselID" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" ariahidden="true"></span>
+            <span class="sr-only">Następny</span>
+        </a>
+    </nav>
+    <header>
+        <section id=”main-page” class=”jumbotron”>
+            <div class=”container” style="width: auto; height: auto;">
+                <h1>Pierwsza sekcja strony!</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus aliquet nisl vel mattis. In
+                    eget sem non nibh viverra tempor. Aenean eu finibus ante. Aliquam erat volutpat. Fusce volutpat
+                    tortor iaculis mauris scelerisque faucibus. Duis quis elit ultricies, dignissim tortor at, egestas
+                    tortor. Suspendisse sed auctor metus. Quisque et venenatis quam. Vestibulum suscipit sit amet mauris
+                    quis porttitor. Etiam ac finibus lorem.
+                </p>
+                <div id="carouselID" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselID" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselID" data-slide-to="1"></li>
+                        <li data-target="#carouselID" data-slide-to="2"></li>
+                        <li data-target="#carouselID" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/1.png" alt="1">
+                            <div class="carousel-caption">Opis obrazka 1</div>
+                        </div>
+                        <div class="item">
+                            <img src="img/2.png" alt="2">
+                            <div class="carousel-caption">Opis obrazka 2 </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/3.png" alt="3">
+                            <div class="carousel-caption">Opis obrazka 3</div>
+                        </div>
+                        <div class="item">
+                            <img src="img/4.png" alt="3">
+                            <div class="carousel-caption">Opis obrazka 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <footer>
+        <div class=”container”>
+            <a href="#modal-dialog" type="button" class="btn btn-primary" datatoggle="modal" data-target="#myModal">
+                Polityka prywatności
+            </a>
+        </div>
+    </footer>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" arialabel="Close"><span
+                            ariahidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <H1>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus aliquet nisl vel mattis.
+                        In
+                        eget sem non nibh viverra tempor. Aenean eu finibus ante. Aliquam erat volutpat. Fusce volutpat
+                        tortor iaculis mauris scelerisque faucibus. Duis quis elit ultricies, dignissim tortor at,
+                        egestas
+                        tortor. Suspendisse sed auctor metus. Quisque et venenatis quam. Vestibulum suscipit sit amet
+                        mauris
+                        quis porttitor. Etiam ac finibus lorem.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Fusce dapibus aliquet nisl vel mattis. In
+                        eget sem non nibh viverra tempor. Aenean eu finibus ante. Aliquam erat volutpat. Fusce volutpat
+                        tortor iaculis mauris scelerisque faucibus. Duis quis elit ultricies, dignissim tortor at,
+                        egestas
+                        tortor. Suspendisse sed auctor metus. Quisque et venenatis quam. Vestibulum suscipit sit amet
+                        mauris
+                        quis porttitor. Etiam ac finibus lorem.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Fusce dapibus aliquet nisl vel mattis. In
+                        eget sem non nibh viverra tempor. Aenean eu finibus ante. Aliquam erat volutpat. Fusce volutpat
+                        tortor iaculis mauris scelerisque faucibus. Duis quis elit ultricies, dignissim tortor at,
+                        egestas
+                        tortor. Suspendisse sed auctor metus. Quisque et venenatis quam. Vestibulum suscipit sit amet
+                        mauris
+                        quis porttitor. Etiam ac finibus lorem.
+                    </H1>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" datadismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
